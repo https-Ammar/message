@@ -86,13 +86,12 @@ h2 {
 }
 
 .message::before {
-  content: "\f10d"; /* أيقونة التنصيص الافتتاحية */
-  top: 0;
+  content: "\f10d";
   left: 10px;
 }
 
 .message::after {
-  content: "\f10e"; /* أيقونة التنصيص الإغلاقية */
+  content: "\f10e";
   bottom: 0;
   right: 10px;
 }

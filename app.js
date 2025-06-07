@@ -29,7 +29,7 @@ nextBtn.addEventListener("click", () => {
     if (index < messages.length) {
       messageBox.innerText = messages[index];
     } else {
-      messageBox.innerText = "I love you, Maryam 🙈💖🔥";
+      messageBox.innerText = "I love you, Maryam 🙈💖";
       nextBtn.disabled = true;
       nextBtn.innerText = "Finished 💘";
     }
