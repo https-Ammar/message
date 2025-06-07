@@ -18,6 +18,8 @@ body {
   justify-content: center;
   animation: fadeInBody 2s ease-in;
   margin: 0;
+  font-family: "Cairo", sans-serif;
+  line-height: 1.3;
 }
 
 @keyframes fadeInBody {
@@ -76,20 +78,21 @@ h2 {
 
 .message::before,
 .message::after {
-  font-size: 3rem;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900; /* solid */
+  font-size: 2rem;
   color: var(--main-color);
   position: absolute;
-  font-weight: bold;
 }
 
 .message::before {
-  content: "“";
+  content: "\f10d"; /* أيقونة التنصيص الافتتاحية */
   top: 0;
   left: 10px;
 }
 
 .message::after {
-  content: "”";
+  content: "\f10e"; /* أيقونة التنصيص الإغلاقية */
   bottom: 0;
   right: 10px;
 }
@@ -107,12 +110,12 @@ h2 {
 }
 
 .card {
-  max-width: 320px;
+  width: 320px;
 }
 
 @media screen and (max-width: 992px) {
   .card {
-    max-width: 80%;
+    width: 85%;
   }
 }
 

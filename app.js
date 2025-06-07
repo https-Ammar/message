@@ -6,6 +6,12 @@ const messages = [
   "My heart beats your name always. ❤️",
   "I promise to stand by you forever. 🌙",
   "You are the most beautiful fate I've ever had. ✨",
+
+  "You will always be my queen and princess for life. 👑💫",
+  "With you, every day feels like a fairy tale. 🏰✨",
+  "You light up my darkest nights. 🌟🌙",
+  "Forever grateful to have you by my side. 🙏❤️",
+  "Together, we can conquer the world. 🌍🔥",
 ];
 
 // Get elements
@@ -23,7 +29,7 @@ nextBtn.addEventListener("click", () => {
     if (index < messages.length) {
       messageBox.innerText = messages[index];
     } else {
-      messageBox.innerText = "No more love messages 💖";
+      messageBox.innerText = "I love you, Maryam 🙈💖🔥";
       nextBtn.disabled = true;
       nextBtn.innerText = "Finished 💘";
     }
