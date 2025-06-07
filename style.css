@@ -87,6 +87,7 @@ h2 {
 
 .message::before {
   content: "\f10d";
+  top: 0;
   left: 10px;
 }
 
